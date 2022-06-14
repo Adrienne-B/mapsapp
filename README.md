@@ -16,6 +16,8 @@ I learned that you can access the current location from anywhere using API.
 #### Random Unexpected Challenges:
 1. Map wouldnt not display in the browser
 
+2. I deleted the main page which is suppose to display everything.
+
 #### Solutions/solving the issue:
 1. I didnt have "public String getMapForLocation(Location location, Model model) {
 		mapService.addCoordinates(location);" in lines 24 -26 in MapController.
@@ -23,6 +25,9 @@ I learned that you can access the current location from anywhere using API.
 2. I had to name the picture so it was showed on screen
     
 3. Application.properties didnt have the api_key information
+
+4.To find a page that has been deleted, right click on the project and go to 'Restore from local host'. There should be timelines of edit versions of a certain
+class, interface, package, etc that were deleted.
 
 #### Weakness so far:
 1.	I am still learning Java (beginner).
